@@ -1,0 +1,21 @@
+{
+  "base": "semantic/",
+  "paths": {
+    "source": {
+      "config": "src/theme.config",
+      "definitions": "src/definitions/",
+      "site": "src/site/",
+      "themes": "src/themes/"
+    },
+    "output": {
+      "packaged": "../semantic-dist/",
+      "uncompressed": "../semantic-dist/components/",
+      "compressed": "../semantic-dist/components/",
+      "themes": "../semantic-dist/themes/"
+    },
+    "clean": "../semantic-dist/"
+  },
+  "permission": false,
+  "rtl": false,
+  "version": "2.1.8"
+}
