@@ -26,3 +26,11 @@ build/Release
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
+
+!node_modules/es6-shim/es6-shim.min.js
+!node_modules/systemjs/dist/system-polyfills.js
+!node_modules/angular2/bundles/angular2-polyfills.js
+!node_modules/systemjs/dist/system.src.js
+!node_modules/rxjs/bundles/Rx.js
+!node_modules/angular2/bundles/angular2.dev.js
+!node_modules/angular2/bundles/router.dev.js
