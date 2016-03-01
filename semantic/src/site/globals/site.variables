@@ -1,3 +1,18 @@
 /*******************************
      User Global Variables
 *******************************/
+
+@h1 : 4rem;
+@h2 : 2.429rem;
+@h3 : 1.714rem;
+@h4 : 1.429rem;
+@h5 : 1.143rem;
+
+@darkPrimaryColor:   #0097A7;
+@primaryColor:       #00BCD4;
+@lightPrimaryColor:  #B2EBF2;
+@textPrimaryColor:   #FFFFFF;
+@accentColor:        #FFC107;
+@secondaryColor:   #212121;
+@secondaryTextColor: #727272;
+@dividerColor:       #B6B6B6;

@@ -1,204 +1,47 @@
 <html>
   <head>
-
-    <meta charset='utf8'/>
+    <base href="/">
 
     <title> Çevtaş - Homepage</title>
 
+    <meta charset='utf8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel='stylesheet' href='semantic-dist/semantic.css'/>
-    <link rel='stylesheet' href='css/style.css'/>
-  </head>
-  <body>
 
-    <div class="ui fixed menu" style='border:none'>
-      <div class="header item">Logo</div>
-      <a class="active item">Scope of Services</a>
-      <a class="item">Who we are</a>
-      <a class="item">Portfolio</a>
-      <a class="item">Contact</a>
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
 
-      <div class='right menu'>
-        <a class="item" style='background-color:#00f;'>We will find a way</a>
-      </div>
-    </div>
-    <div class="ui grid">
-      <div class="row" style='padding-top:0;'>
-        <div class='column'>
-            <div id='cevtas-hero' class='ui container' style='margin:0 !important;'>
-              <img class="ui fluid image" src="images/bg.jpg">
-              <h1 class="ui center aligned header">
-
-                Change the business, keep the environment
-
-                <div class="sub header">
-
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-                  Ut enim ad minim veniam
-                </div>
-
-                <button class="ui primary large button">Explore</button>
-
-              </h1>
-            </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class='column'>
-
-          <h3 class="ui center aligned header">Explore our services</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class='eight wide column'>
-          <div class="ui container">
-            <img class="ui centered small image" src="/images/placeholder.png">
-            <h4 class='ui ui center aligned header'>
-              Te eum doming eirmod, nominati.
-            </h4>
-          </div>
-        </div>
-        <div class='eight wide column'>
-          <div class='ui container'>
-            <img class="ui centered small image" src="/images/placeholder.png">
-            <h4 class='ui center aligned header'>
-              Vim dolorum definiebas an.
-            </h4>
-          </div>
-        </div>
-      </div>
-      <div class='one column centered row'>
-        <div class='seven wide column'>
-          <div class='ui container'>
-            <h4 class="ui center aligned header">
-
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent porttitor ex sit amet accumsan dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu magna, mollis ut maximus ut, porttitor vitae felis.
-
-              <div class="sub header">
-
-                CEO - THE MOON
-              </div>
-              <div class="sub header">
-                1 2 3
-              </div>
-            </h4>
-          </div>
-        </div>
-      </div>
-
-      <div class='grey one column centered row'>
-
-        <div class='seven wide column'>
-
-          <div class='ui container'>
-            <h2 class="ui center aligned header">
-              We will find a way
-            </h2>
-          </div>
-        </div>
-      </div>
-      <div class='two column centered row'>
-        <div class='six wide column'>
-          <div class='ui container'>
-            <h3 class="ui center aligned header">
-              Partners
-              <div class="ui tiny images">
-                <img class="ui image" src="images/placeholder.png">
-                <img class="ui image" src="images/placeholder.png">
-                <img class="ui image" src="images/placeholder.png">
-              </div>
-            </h3>
-          </div>
-        </div>
-        <div class='six wide column'>
-          <div class='ui container'>
-            <h3 class="ui center aligned header">
-              Clients
-              <div class="ui tiny images">
-                <img class="ui image" src="images/placeholder.png">
-                <img class="ui image" src="images/placeholder.png">
-                <img class="ui image" src="images/placeholder.png">
-              </div>
-            </h3>
-          </div>
-        </div>
-      </div>
-      <div class='four column centered row'>
-        <div class='three wide column'>
-          <div class='ui container'>
-            <div class="ui list">
-              <div class="item">
-                <div class="header">Scope</div>
-              </div>
-              <div class="item">
-                Consultancy & Business development
-              </div>
-              <div class="item">
-                Construction & Commission
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class='three wide column'>
-          <div class='ui container'>
-            <div class="ui list">
-              <div class="item">
-                <div class="header">Projects</div>
-              </div>
-              <div class="item">
-                Consultancy & Business development
-              </div>
-              <div class="item">
-                Construction & Commission
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class='three wide column'>
-          <div class='ui container'>
-            <div class="ui list">
-              <div class="item">
-                <div class="header">Who we are</div>
-              </div>
-              <div class="item">
-                About
-              </div>
-              <div class="item">
-                Culture & Philosophy
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class='three wide column'>
-          <div class='ui container'>
-            <h5 class="ui header">
-              Connect
-            </h5>
-            <button class="ui circular facebook icon button">
-              <i class="facebook icon"></i>
-            </button>
-            <button class="ui circular twitter icon button">
-              <i class="twitter icon"></i>
-            </button>
-            <button class="ui circular linkedin icon button">
-              <i class="linkedin icon"></i>
-            </button>
-            <button class="ui circular google plus icon button">
-              <i class="google plus icon"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='column'>
-          <div class='ui center aligned container'>
-            Privacy Terms
-          </div>
-        </div>
-      </div>
-    </div>
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="node_modules/angular2/bundles/router.dev.js"></script>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js'></script>
     <script src='semantic-dist/semantic.js'></script>
+
+    <script>
+      System.config({
+        packages: {
+          app: {
+            format: 'register',
+            defaultExtension: 'js'
+          }
+        }
+      });
+
+      System.import('app/main')
+            .then(null, console.error.bind(console));
+    </script>
+  </head>
+
+  <body class='cevtas'>
+
+    <cevtas-app>Loading...</cevtas-app>
+
+    <!-- Livereload - remove later -->
+    <!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +':35729/livereload.js?snipver=1"></' + 'script>')</script>-->
+    <!--  -->
   </body>
 </html>

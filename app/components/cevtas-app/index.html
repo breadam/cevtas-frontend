@@ -1,0 +1,38 @@
+<div class="ui fixed borderless menu grid">
+
+  <div class='computer only row'>
+
+    <a class="header item" [routerLink]="['Home']">Logo</a>
+    <a class="item" [routerLink]="['Services']">Scope of Services</a>
+    <a class="item" [routerLink]="['About']">Who we are</a>
+    <a class="item" [routerLink]="['Portfolio']">Portfolio</a>
+    <a class="item" [routerLink]="['Contact']">Contact</a>
+
+    <div class='right menu'>
+      <a class="item cta large screen only">We will find a way</a>
+    </div>
+  </div>
+
+  <div class='mobile only row'>
+
+    <a class="header item" [routerLink]="['Home']">Logo</a>
+    <div class='right menu'>
+      <a class="ui dropdown item">
+        MENU
+        <i class="bars icon"></i>
+        <div class="menu">
+          <a class="header item" [routerLink]="['Home']">Logo</a>
+          <a class="item" [routerLink]="['Services']">Scope of Services</a>
+          <a class="item" [routerLink]="['About']">Who we are</a>
+          <a class="item" [routerLink]="['Portfolio']">Portfolio</a>
+          <a class="item" [routerLink]="['Contact']">Contact</a>
+
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class='ui grid'>
+  <router-outlet></router-outlet>
+</div>

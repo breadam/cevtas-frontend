@@ -554,23 +554,23 @@ h5 {
 
 h1 {
   min-height: 1rem;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 1.714rem;
+  font-size: 2.429rem;
 }
 
 h3 {
-  font-size: 1.28rem;
+  font-size: 1.714rem;
 }
 
 h4 {
-  font-size: 1.071rem;
+  font-size: 1.429rem;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1.143rem;
 }
 
 h1:first-child,
@@ -4180,7 +4180,7 @@ input::selection {
 
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: #2185D0;
+  background-color: #00BCD4;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4192,28 +4192,28 @@ input::selection {
 
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #1678c2;
+  background-color: #00a5bb;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
-  background-color: #0d71bb;
+  background-color: #0098ab;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
-  background-color: #1a69a4;
+  background-color: #008fa1;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .active.button,
 .ui.primary.active.button {
-  background-color: #1279c6;
+  background-color: #00a5bb;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4224,7 +4224,7 @@ input::selection {
 
 .ui.secondary.buttons .button,
 .ui.secondary.button {
-  background-color: #1B1C1D;
+  background-color: #212121;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4236,28 +4236,28 @@ input::selection {
 
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
-  background-color: #27292a;
+  background-color: #2e2e2e;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:focus,
 .ui.secondary.button:focus {
-  background-color: #2e3032;
+  background-color: #353535;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .button:active,
 .ui.secondary.button:active {
-  background-color: #343637;
+  background-color: #3b3b3b;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.secondary.buttons .active.button,
 .ui.secondary.active.button {
-  background-color: #27292a;
+  background-color: #2e2e2e;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -6304,23 +6304,23 @@ i.flag.zimbabwe:before {
 ---------------*/
 
 h1.ui.header {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 h2.ui.header {
-  font-size: 1.714rem;
+  font-size: 2.429rem;
 }
 
 h3.ui.header {
-  font-size: 1.28rem;
+  font-size: 1.714rem;
 }
 
 h4.ui.header {
-  font-size: 1.071rem;
+  font-size: 1.429rem;
 }
 
 h5.ui.header {
-  font-size: 1rem;
+  font-size: 1.143rem;
 }
 
 /* Sub Header */
@@ -6351,23 +6351,23 @@ h5.ui.header .sub.header {
 
 .ui.huge.header {
   min-height: 1em;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 .ui.large.header {
-  font-size: 1.714em;
+  font-size: 2.429em;
 }
 
 .ui.medium.header {
-  font-size: 1.28em;
+  font-size: 1.714em;
 }
 
 .ui.small.header {
-  font-size: 1.071em;
+  font-size: 1.429em;
 }
 
 .ui.tiny.header {
-  font-size: 1em;
+  font-size: 1.143em;
 }
 
 /* Sub Header */
@@ -6977,7 +6977,7 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-size: 1.28em;
+  font-size: 1.714em;
 }
 
 /*******************************
@@ -17251,8 +17251,8 @@ ol.ui.horizontal.list li:before,
 -----------------------*/
 
 .ui.grid {
-  margin-top: -1rem;
-  margin-bottom: -1rem;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: -1rem;
   margin-right: -1rem;
 }
@@ -17270,7 +17270,7 @@ ol.ui.horizontal.list li:before,
 /* Preserve Rows Spacing on Consecutive Grids */
 
 .ui.grid + .grid {
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 /*-------------------
@@ -17322,8 +17322,8 @@ ol.ui.horizontal.list li:before,
   align-items: stretch;
   width: 100% !important;
   padding: 0rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /*-------------------
@@ -17333,8 +17333,8 @@ ol.ui.horizontal.list li:before,
 /* Vertical padding when no rows */
 
 .ui.grid > .column:not(.row) {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .ui.grid > .row > .column {
@@ -17379,11 +17379,11 @@ ol.ui.horizontal.list li:before,
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  margin: 1rem 1rem;
+  margin: 0 1rem;
 }
 
 .ui.grid .column + .ui.vertical.divider {
-  height: calc(50% -  1rem );
+  height: calc(50% -  0 );
 }
 
 /* Remove Border on Last Horizontal Segment */
@@ -18420,8 +18420,8 @@ ol.ui.horizontal.list li:before,
 
 .ui[class*="vertically divided"].grid > .column:not(.row),
 .ui[class*="vertically divided"].grid > .row > .column {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top: 0rem;
   padding-bottom: 0rem;
 }
@@ -18735,10 +18735,10 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .row > .brown.column,
 .ui.grid > .row > .grey.column,
 .ui.grid > .row > .black.column {
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* Red */
@@ -19068,8 +19068,8 @@ ol.ui.horizontal.list li:before,
   .ui.grid > .doubling.row > .column,
   .ui.doubling.grid > .row > .column {
     display: inline-block !important;
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     box-shadow: none !important;
     margin: 0em;
   }
@@ -19176,8 +19176,8 @@ ol.ui.horizontal.list li:before,
 
   .ui.grid > .doubling.row > .column,
   .ui.doubling.grid > .row > .column {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     margin: 0em !important;
     box-shadow: none !important;
   }
@@ -19294,7 +19294,7 @@ ol.ui.horizontal.list li:before,
     width: 100% !important;
     margin: 0em 0em !important;
     box-shadow: none !important;
-    padding: 1rem 1rem !important;
+    padding: 0 0 !important;
   }
 
   .ui.stackable.grid:not(.vertically) > .row {
@@ -19314,8 +19314,8 @@ ol.ui.horizontal.list li:before,
 
   .ui.grid .ui.stackable.grid,
   .ui.segment:not(.vertical) .ui.stackable.page.grid {
-    margin-left: -1rem !important;
-    margin-right: -1rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   /* Divided Stackable */
@@ -19340,8 +19340,8 @@ ol.ui.horizontal.list li:before,
   .ui.stackable.divided:not(.vertically).grid > .row > .column {
     border-top: 1px solid rgba(34, 36, 38, 0.15);
     box-shadow: none !important;
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 
   .ui.stackable.celled.grid > .row {
@@ -19535,7 +19535,7 @@ ol.ui.horizontal.list li:before,
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #FFFFFF;
   font-weight: normal;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: none;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
   border-radius: 0.28571429rem;
   min-height: 2.85714286em;
@@ -27450,7 +27450,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:checked ~ .box:before,
 .ui.toggle.checkbox input:checked ~ label:before {
-  background-color: #2185D0 !important;
+  background-color: #00BCD4 !important;
 }
 
 .ui.toggle.checkbox input:checked ~ .box:after,
@@ -27467,7 +27467,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:focus:checked ~ .box:before,
 .ui.toggle.checkbox input:focus:checked ~ label:before {
-  background-color: #0d71bb !important;
+  background-color: #0098ab !important;
 }
 
 /*******************************
