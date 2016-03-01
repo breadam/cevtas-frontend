@@ -8,8 +8,8 @@
 @h4 : 1.429rem;
 @h5 : 1.143rem;
 
+@primaryColor:       #0098FF;
 @darkPrimaryColor:   #0097A7;
-@primaryColor:       #00BCD4;
 @lightPrimaryColor:  #B2EBF2;
 @textPrimaryColor:   #FFFFFF;
 @accentColor:        #FFC107;
