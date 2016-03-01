@@ -1,5 +1,18 @@
 <div class="ui fixed borderless menu grid">
 
+  <div class='tablet only row'>
+
+    <a class="header item" [routerLink]="['Home']">Logo</a>
+    <a class="item" [routerLink]="['Services']">Scope of Services</a>
+    <a class="item" [routerLink]="['About']">Who we are</a>
+    <a class="item" [routerLink]="['Portfolio']">Portfolio</a>
+    <a class="item" [routerLink]="['Contact']">Contact</a>
+
+    <div class='right menu'>
+      <a class="item cta">We will find a way</a>
+    </div>
+  </div>
+
   <div class='computer only row'>
 
     <a class="header item" [routerLink]="['Home']">Logo</a>
@@ -9,7 +22,20 @@
     <a class="item" [routerLink]="['Contact']">Contact</a>
 
     <div class='right menu'>
-      <a class="item cta large screen only">We will find a way</a>
+      <a class="item cta">We will find a way</a>
+    </div>
+  </div>
+
+  <div class='large screen only row'>
+
+    <a class="header item" [routerLink]="['Home']">Logo</a>
+    <a class="item" [routerLink]="['Services']">Scope of Services</a>
+    <a class="item" [routerLink]="['About']">Who we are</a>
+    <a class="item" [routerLink]="['Portfolio']">Portfolio</a>
+    <a class="item" [routerLink]="['Contact']">Contact</a>
+
+    <div class='right menu'>
+      <a class="item cta">We will find a way</a>
     </div>
   </div>
 
