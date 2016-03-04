@@ -1,4 +1,6 @@
 import {Component} from 'angular2/core';
+import {RouterLink} from 'angular2/router';
+
 import {CevtasHero} from '../cevtas-hero/component';
 import {CevtasSection} from '../cevtas-section/component';
 import {CevtasTestimonials} from '../cevtas-testimonials/component';
@@ -20,7 +22,8 @@ import {CevtasFooter} from '../cevtas-footer/component';
       CevtasTestimonials,
       CevtasCta,
       CevtasPartners,
-      CevtasFooter
+      CevtasFooter,
+      RouterLink
     ]
 })
 

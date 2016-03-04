@@ -16,3 +16,7 @@
 @secondaryColor:   #212121;
 @secondaryTextColor: #727272;
 @dividerColor:       #B6B6B6;
+
+@pageBackground:rgba(0,0,0,0,0);
+
+@defaultBorderRadius:0;

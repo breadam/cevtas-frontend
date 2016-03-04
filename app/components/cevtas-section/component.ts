@@ -4,7 +4,7 @@ import {Component} from 'angular2/core';
 
     selector: 'cevtas-section',
     templateUrl:'app/components/cevtas-section/index.html',
-    properties:['outerWidth','outerHeight','innerWidth','innerHeight','align','image'],
+    properties:['outerWidth','outerHeight','innerWidth','innerHeight','align','image','background'],
     styles:[
       `
         .outer{
@@ -12,7 +12,6 @@ import {Component} from 'angular2/core';
           background-repeat:no-repeat;
           background-position: center center;
           background-size:cover;
-          background-attachment:fixed;
         }
 
         .inner{

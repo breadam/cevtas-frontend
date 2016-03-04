@@ -3,3 +3,4 @@
 *******************************/
 
 @border: none;
+@itemVerticalPadding: @relativeTiny;

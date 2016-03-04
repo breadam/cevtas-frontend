@@ -28,9 +28,9 @@ System.register(['angular2/core'], function(exports_1) {
                     core_1.Component({
                         selector: 'cevtas-section',
                         templateUrl: 'app/components/cevtas-section/index.html',
-                        properties: ['outerWidth', 'outerHeight', 'innerWidth', 'innerHeight', 'align', 'image'],
+                        properties: ['outerWidth', 'outerHeight', 'innerWidth', 'innerHeight', 'align', 'image', 'background'],
                         styles: [
-                            "\n        .outer{\n          position:relative;\n          background-repeat:no-repeat;\n          background-position: center center;\n          background-size:cover;\n          background-attachment:fixed;\n        }\n\n        .inner{\n          position:absolute;\n          display:inline-block;\n          top:50%;\n          left:50%;\n          transform:translate(-50%,-50%);\n        }\n      "
+                            "\n        .outer{\n          position:relative;\n          background-repeat:no-repeat;\n          background-position: center center;\n          background-size:cover;\n        }\n\n        .inner{\n          position:absolute;\n          display:inline-block;\n          top:50%;\n          left:50%;\n          transform:translate(-50%,-50%);\n        }\n      "
                         ]
                     }), 
                     __metadata('design:paramtypes', [])

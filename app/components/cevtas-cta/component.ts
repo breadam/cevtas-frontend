@@ -1,4 +1,6 @@
 import {Component} from 'angular2/core';
+import {RouterLink} from 'angular2/router';
+
 import {CevtasSection} from '../cevtas-section/component';
 
 @Component({
@@ -6,7 +8,8 @@ import {CevtasSection} from '../cevtas-section/component';
     selector: 'cevtas-cta',
     templateUrl:'app/components/cevtas-cta/index.html',
     directives: [
-      CevtasSection
+      CevtasSection,
+      RouterLink
     ]
 })
 

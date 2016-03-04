@@ -4,6 +4,8 @@ import {CevtasHome} from '../cevtas-home/component';
 import {CevtasAbout} from '../cevtas-about/component';
 import {CevtasPortfolio} from '../cevtas-portfolio/component';
 import {CevtasServices} from '../cevtas-services/component';
+import {CevtasConstruction} from '../cevtas-construction/component';
+import {CevtasConsultancy} from '../cevtas-consultancy/component';
 import {CevtasContact} from '../cevtas-contact/component';
 
 declare var jQuery:any;
@@ -47,6 +49,16 @@ declare var jQuery:any;
     path: '/contact',
     name: 'Contact',
     component: CevtasContact
+  },
+  {
+    path: '/construction',
+    name: 'Construction',
+    component: CevtasConstruction
+  },
+  {
+    path: '/consultancy',
+    name: 'Consultancy',
+    component: CevtasConsultancy
   }
 ])
 

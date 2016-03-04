@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/router', '../cevtas-home/component', '../cevtas-about/component', '../cevtas-portfolio/component', '../cevtas-services/component', '../cevtas-contact/component'], function(exports_1) {
+System.register(['angular2/core', 'angular2/router', '../cevtas-home/component', '../cevtas-about/component', '../cevtas-portfolio/component', '../cevtas-services/component', '../cevtas-construction/component', '../cevtas-consultancy/component', '../cevtas-contact/component'], function(exports_1) {
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -8,7 +8,7 @@ System.register(['angular2/core', 'angular2/router', '../cevtas-home/component',
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, router_1, component_1, component_2, component_3, component_4, component_5;
+    var core_1, router_1, component_1, component_2, component_3, component_4, component_5, component_6, component_7;
     var CevtasApp;
     return {
         setters:[
@@ -32,6 +32,12 @@ System.register(['angular2/core', 'angular2/router', '../cevtas-home/component',
             },
             function (component_5_1) {
                 component_5 = component_5_1;
+            },
+            function (component_6_1) {
+                component_6 = component_6_1;
+            },
+            function (component_7_1) {
+                component_7 = component_7_1;
             }],
         execute: function() {
             CevtasApp = (function () {
@@ -76,7 +82,17 @@ System.register(['angular2/core', 'angular2/router', '../cevtas-home/component',
                         {
                             path: '/contact',
                             name: 'Contact',
-                            component: component_5.CevtasContact
+                            component: component_7.CevtasContact
+                        },
+                        {
+                            path: '/construction',
+                            name: 'Construction',
+                            component: component_5.CevtasConstruction
+                        },
+                        {
+                            path: '/consultancy',
+                            name: 'Consultancy',
+                            component: component_6.CevtasConsultancy
                         }
                     ]), 
                     __metadata('design:paramtypes', [])
