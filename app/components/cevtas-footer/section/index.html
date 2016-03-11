@@ -8,7 +8,7 @@
       <div class="header">{{title}}</div>
     </div>
     <div class="item" *ngFor='#item of items'>
-      {{item}}
+      <a [routerLink] = '[item.link]'> {{item.title}}</a>
     </div>
   </div>
 </cevtas-section>

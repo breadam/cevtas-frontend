@@ -1,21 +1,7 @@
-<cevtas-footer-section
+<cevtas-footer-section *ngFor='#section of sections'
 
-  [title]='"Scope"'
-  [items]='["Consultancy & Business Development","Construction & Commission"]'
-
-></cevtas-footer-section>
-
-<cevtas-footer-section
-
-  [title]='"Scope"'
-  [items]='["Consultancy & Business Development","Construction & Commission"]'
-
-></cevtas-footer-section>
-
-<cevtas-footer-section
-
-  [title]='"Scope"'
-  [items]='["Consultancy & Business Development","Construction & Commission"]'
+  [title]='section.title'
+  [items]='section.items'
 
 ></cevtas-footer-section>
 

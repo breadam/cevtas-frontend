@@ -24,13 +24,45 @@ System.register(['angular2/core', './section/component', '../cevtas-section/comp
         execute: function() {
             CevtasFooter = (function () {
                 function CevtasFooter() {
+                    this.sections = [
+                        {
+                            title: 'Scope',
+                            items: [
+                                {
+                                    title: 'Construction & Commission',
+                                    link: 'Construction'
+                                },
+                                {
+                                    title: 'Consultancy & Business Development',
+                                    link: 'Consultancy'
+                                }
+                            ]
+                        },
+                        {
+                            title: 'Who we are',
+                            items: [
+                                {
+                                    title: 'Company Overview',
+                                    link: 'About'
+                                },
+                                {
+                                    title: 'Culture & Philosophy',
+                                    link: 'About'
+                                },
+                                {
+                                    title: 'Certificates',
+                                    link: 'About'
+                                }
+                            ]
+                        }
+                    ];
                 }
                 CevtasFooter = __decorate([
                     core_1.Component({
                         selector: 'cevtas-footer',
                         templateUrl: 'app/components/cevtas-footer/index.html',
                         host: {
-                            'class': 'ui four column grid container'
+                            'class': 'ui three column grid container'
                         },
                         directives: [
                             component_1.CevtasFooterSection,
